@@ -1,3 +1,22 @@
+## Better Auth installation
+
+First, create a Postgres Database then configure your environment variables:
+
+```bash
+BETTER_AUTH_SECRET=""
+DATABASE_URL=""
+```
+
+Then generate your schema and perform migrations:
+
+```bash
+npx @better-auth/cli generate
+npx drizzle-kit generate
+npx drizzle-kit migrate
+```
+
+## Next.js
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
