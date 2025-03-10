@@ -1,4 +1,6 @@
-## Better Auth installation
+# Better Auth Next.js App Router Starter
+
+## Installation
 
 First, create a Postgres Database then configure your environment variables:
 
