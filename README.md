@@ -1,5 +1,7 @@
 # Better Auth Next.js App Router Starter
 
+[Demo](https://better-auth-nextjs-starter.vercel.app)
+
 ## Installation
 
 First, create a Postgres Database then configure your environment variables:
