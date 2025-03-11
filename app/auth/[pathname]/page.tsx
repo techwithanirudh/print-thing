@@ -1,7 +1,8 @@
 import { AuthCard } from "@daveyplate/better-auth-ui"
 import { authViewPaths } from "@daveyplate/better-auth-ui/server"
 import Link from "next/link"
-import { cn } from "../../../lib/utils"
+
+import { cn } from "@/lib/utils"
 
 export function generateStaticParams() {
     return Object.values(authViewPaths).map((pathname) => ({ pathname }))
