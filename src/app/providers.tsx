@@ -3,13 +3,13 @@
 import { AuthQueryProvider } from "@daveyplate/better-auth-tanstack"
 import { AuthUIProviderTanstack } from "@daveyplate/better-auth-ui/tanstack"
 import { QueryClient, QueryClientProvider, isServer } from "@tanstack/react-query"
+import { ThemeProvider } from "next-themes"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import type { ReactNode } from "react"
 import { toast } from "sonner"
 
 import { authClient } from "@/lib/auth-client"
-import { ThemeProvider } from "next-themes"
 
 function makeQueryClient() {
     return new QueryClient({
