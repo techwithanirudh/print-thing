@@ -8,15 +8,21 @@ importers:
 
   .:
     dependencies:
+      '@daveyplate/better-auth-tanstack':
+        specifier: ^1.2.30
+        version: 1.2.30(@tanstack/query-core@5.67.2)(@tanstack/react-query@5.67.2(react@19.0.0))(better-auth@1.2.3(typescript@5.8.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@daveyplate/better-auth-ui':
-        specifier: ^1.2.24
-        version: 1.2.24(a8beb94e98a3a3438d82f64cdff5f4ba)
+        specifier: ^1.2.25
+        version: 1.2.25(a8beb94e98a3a3438d82f64cdff5f4ba)
       '@radix-ui/react-dropdown-menu':
         specifier: ^2.1.6
         version: 2.1.6(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-slot':
         specifier: ^1.1.2
         version: 1.1.2(@types/react@19.0.10)(react@19.0.0)
+      '@tanstack/react-query':
+        specifier: ^5.67.2
+        version: 5.67.2(react@19.0.0)
       better-auth:
         specifier: ^1.2.3
         version: 1.2.3(typescript@5.8.2)
@@ -358,8 +364,8 @@ packages:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
 
-  '@daveyplate/better-auth-ui@1.2.24':
-    resolution: {integrity: sha512-6xDzlDpnDNzjQ+jJUtj1Fe7REGOijGrlk/XSUnot7fhnyfX501JrTe7ThTZxJiSOWMg0gZbtXBZ4TP7xLTv18Q==}
+  '@daveyplate/better-auth-ui@1.2.25':
+    resolution: {integrity: sha512-uHpBucBOtcLhQz5sZtSljMBZ544fSqxunsv7PkTOHKBny7ER5LPRVB1wNpyZObE62TYnnxFsKU5lREBeNGxJbQ==}
     peerDependencies:
       '@daveyplate/better-auth-tanstack': ^1.2.30
       '@radix-ui/react-avatar': '>=1.1.0'
@@ -3267,7 +3273,7 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  '@daveyplate/better-auth-ui@1.2.24(a8beb94e98a3a3438d82f64cdff5f4ba)':
+  '@daveyplate/better-auth-ui@1.2.25(a8beb94e98a3a3438d82f64cdff5f4ba)':
     dependencies:
       '@daveyplate/better-auth-tanstack': 1.2.30(@tanstack/query-core@5.67.2)(@tanstack/react-query@5.67.2(react@19.0.0))(better-auth@1.2.3(typescript@5.8.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-avatar': 1.1.3(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
