@@ -2,6 +2,8 @@
 
 [Demo](https://better-auth-nextjs-starter.vercel.app)
 
+- [Pages Router](https://github.com/daveyplate/better-auth-nextjs-pages-starter)
+
 ## Installation
 
 First, create a Postgres Database then configure your environment variables:
