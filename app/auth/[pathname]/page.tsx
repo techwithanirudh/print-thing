@@ -12,7 +12,7 @@ export default async function AuthPage({ params }: { params: Promise<{ pathname:
     const { pathname } = await params
 
     return (
-        <div className="flex flex-col grow items-center justify-center gap-3">
+        <main className="flex flex-col grow p-4 gap-3 items-center justify-center">
             <AuthCard pathname={pathname} />
 
             <p
@@ -26,6 +26,6 @@ export default async function AuthPage({ params }: { params: Promise<{ pathname:
                     better-auth.
                 </Link>
             </p>
-        </div>
+        </main>
     )
 }

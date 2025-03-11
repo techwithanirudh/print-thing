@@ -30,13 +30,13 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-svh`}
-            >
+            <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
                 <Providers>
-                    <Header />
+                    <div className="flex flex-col min-h-svh">
+                        <Header />
 
-                    <main className="p-4 flex flex-col grow">{children}</main>
+                        {children}
+                    </div>
 
                     <Toaster />
                 </Providers>
