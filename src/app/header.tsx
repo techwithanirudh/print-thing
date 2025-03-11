@@ -8,7 +8,7 @@ export function Header() {
     return (
         <header className="sticky top-0 z-50 border-b items-center">
             <div className="container mx-auto flex px-4 py-2 justify-between items-center">
-                <Link href="/" className="flex gap-2 items-center">
+                <Link href="/" className="flex gap-2 items-center text-sm md:text-base">
                     <svg
                         className="w-5 h-5"
                         fill="none"
