@@ -2,8 +2,6 @@
 
 [Demo](https://better-auth-nextjs-starter.vercel.app)
 
-- Twitter: [@daveycodez](https://x.com/daveycodez)
-
 ## Installation
 
 First, create a Postgres Database then configure your environment variables:
@@ -21,18 +19,30 @@ npx drizzle-kit generate
 npx drizzle-kit migrate
 ```
 
-- Features:
+- Twitter: [@daveycodez](https://x.com/daveycodez)
+
+## Features:
 
 [Better Auth](https://better-auth.com)
+
 [Better Auth UI](https://better-auth-ui.com)
+
 [Better Auth TanStack](https://github.com/daveyplate/better-auth-tanstack)
+
 [TanStack Query](https://tanstack.com/query)
+
 [shadcn/ui](https://ui.shadcn.com)
+
 [TailwindCSS](https://tailwindcss.com)
+
 [Drizzle ORM](https://orm.drizzle.team)
+
 [PostgreSQL](https://postgresql.org)
+
 [Biome](https://biomejs.dev)
+
 [Next.js](https://nextjs.org)
+
 [Turborepo](https://turbo.build)
 
 ## Next.js
