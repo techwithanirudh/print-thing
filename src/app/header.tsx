@@ -10,7 +10,7 @@ export function Header() {
             <div className="container mx-auto flex px-4 py-2 justify-between items-center">
                 <Link href="/" className="flex gap-2 items-center text-sm md:text-base">
                     <svg
-                        className="w-5 h-5"
+                        className="size-4 md:size-5"
                         fill="none"
                         height="45"
                         viewBox="0 0 60 45"
