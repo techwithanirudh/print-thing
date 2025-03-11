@@ -1,4 +1,4 @@
-# Better Auth Next.js App Router Starter
+# Better Auth Next.js Starter (App Router)
 
 [Demo](https://better-auth-nextjs-starter.vercel.app)
 
