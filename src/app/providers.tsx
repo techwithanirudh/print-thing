@@ -9,6 +9,7 @@ import type { ReactNode } from "react"
 import { toast } from "sonner"
 
 import { authClient } from "@/lib/auth-client"
+import { ThemeProvider } from "next-themes"
 
 function makeQueryClient() {
     return new QueryClient({
@@ -55,15 +56,26 @@ export function Providers({ children }: { children: ReactNode }) {
     return (
         <QueryClientProvider client={queryClient}>
             <AuthQueryProvider>
-                <AuthUIProviderTanstack
-                    authClient={authClient}
-                    navigate={router.push}
-                    replace={router.replace}
-                    onSessionChange={() => router.refresh()}
-                    LinkComponent={Link}
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="system"
+                    enableSystem
+                    disableTransitionOnChange
+                    themeColor={{
+                        light: "#ffffff",
+                        dark: "#000000"
+                    }}
                 >
-                    {children}
-                </AuthUIProviderTanstack>
+                    <AuthUIProviderTanstack
+                        authClient={authClient}
+                        navigate={router.push}
+                        replace={router.replace}
+                        onSessionChange={() => router.refresh()}
+                        LinkComponent={Link}
+                    >
+                        {children}
+                    </AuthUIProviderTanstack>
+                </ThemeProvider>
             </AuthQueryProvider>
         </QueryClientProvider>
     )
