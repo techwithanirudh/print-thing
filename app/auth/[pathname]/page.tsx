@@ -22,7 +22,11 @@ export default async function AuthPage({ params }: { params: Promise<{ pathname:
                 )}
             >
                 Powered by{" "}
-                <Link className="underline text-warning" href="https://better-auth.com">
+                <Link
+                    className="underline text-warning"
+                    href="https://better-auth.com"
+                    target="_blank"
+                >
                     better-auth.
                 </Link>
             </p>
