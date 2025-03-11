@@ -24,13 +24,6 @@ export const metadata: Metadata = {
         "Better Auth Next.js App Router Starter with Postgres, Drizzle, shadcn/ui and Tanstack Query"
 }
 
-export const viewport = {
-    themeColor: [
-        { color: "var(--background)", media: "(prefers-color-scheme: light)" },
-        { color: "var(--background)", media: "(prefers-color-scheme: dark)" }
-    ]
-}
-
 export default function RootLayout({
     children
 }: Readonly<{
@@ -46,6 +39,10 @@ export default function RootLayout({
                     defaultTheme="system"
                     enableSystem
                     disableTransitionOnChange
+                    themeColor={{
+                        light: "#ffffff",
+                        dark: "#000000"
+                    }}
                 >
                     <Providers>
                         <Header />
