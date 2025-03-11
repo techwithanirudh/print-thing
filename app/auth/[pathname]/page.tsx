@@ -12,7 +12,7 @@ export default async function AuthPage({ params }: { params: Promise<{ pathname:
     const { pathname } = await params
 
     return (
-        <main className="flex flex-col grow p-4 gap-3 items-center justify-center">
+        <main className="flex grow flex-col items-center justify-center gap-3 p-4">
             <AuthCard pathname={pathname} />
 
             <p
@@ -23,7 +23,7 @@ export default async function AuthPage({ params }: { params: Promise<{ pathname:
             >
                 Powered by{" "}
                 <Link
-                    className="underline text-warning"
+                    className="text-warning underline"
                     href="https://better-auth.com"
                     target="_blank"
                 >
