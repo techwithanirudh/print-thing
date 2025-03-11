@@ -24,6 +24,13 @@ export const metadata: Metadata = {
         "Better Auth Next.js App Router Starter with Postgres, Drizzle, shadcn/ui and Tanstack Query"
 }
 
+export const viewport = {
+    themeColor: [
+        { color: "var(--background)", media: "(prefers-color-scheme: light)" },
+        { color: "var(--sidebar)", media: "(prefers-color-scheme: dark)" }
+    ]
+}
+
 export default function RootLayout({
     children
 }: Readonly<{
