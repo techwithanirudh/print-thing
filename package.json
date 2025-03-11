@@ -41,6 +41,7 @@
         "drizzle-kit": "^0.30.5",
         "esbuild": "^0.25.1",
         "tailwindcss": "^4.0.12",
+        "tailwindcss-safe-area": "^0.6.0",
         "turbo": "^2.4.4",
         "typescript": "^5.8.2"
     },

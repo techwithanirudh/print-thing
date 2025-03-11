@@ -1,3 +1,5 @@
+@plugin "tailwindcss-safe-area";
+
 @source "../node_modules/@daveyplate/better-auth-ui";
 
 @layer base {
