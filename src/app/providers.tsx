@@ -62,8 +62,8 @@ export function Providers({ children }: { children: ReactNode }) {
                     enableSystem
                     disableTransitionOnChange
                     themeColor={{
-                        light: "#ffffff",
-                        dark: "#000000"
+                        light: "oklch(1 0 0)",
+                        dark: "oklch(0.145 0 0)"
                     }}
                 >
                     <AuthUIProviderTanstack
