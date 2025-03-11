@@ -36,7 +36,7 @@ export default function RootLayout({
                 <Providers>
                     <Header />
 
-                    <main className="p-safe-or-4 flex flex-col grow">{children}</main>
+                    <main className="p-4 flex flex-col grow">{children}</main>
 
                     <Toaster />
                 </Providers>
