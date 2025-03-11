@@ -8,9 +8,9 @@ export function Header() {
     return (
         <header className="sticky top-0 z-50 border-b items-center bg-background/60 backdrop-blur">
             <div className="container mx-auto flex px-4 py-2 justify-between items-center">
-                <Link href="/" className="flex gap-2 items-center text-sm md:text-base">
+                <Link href="/" className="flex gap-2 items-center">
                     <svg
-                        className="size-4 md:size-5"
+                        className="size-5"
                         fill="none"
                         height="45"
                         viewBox="0 0 60 45"
