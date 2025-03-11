@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation"
 import type { ReactNode } from "react"
 import { toast } from "sonner"
 
-import { authClient } from "@/lib/auth-client"
+import { authClient } from "../lib/auth-client"
 
 function makeQueryClient() {
     return new QueryClient({

@@ -1,6 +1,6 @@
-import { authClient } from "@/lib/auth-client"
 import { createAuthHooks } from "@daveyplate/better-auth-tanstack"
 import { createAuthUIHooks } from "@daveyplate/better-auth-ui"
+import { authClient } from "../lib/auth-client"
 
 export const {
     useListAccounts,

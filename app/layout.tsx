@@ -2,10 +2,10 @@ import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Toaster } from "sonner"
 
-import "./globals.css"
+import "@/styles/globals.css"
 
+import { Header } from "@/components/header"
 import type { ReactNode } from "react"
-import { Header } from "./header"
 import { Providers } from "./providers"
 
 const geistSans = Geist({

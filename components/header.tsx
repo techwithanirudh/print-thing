@@ -1,8 +1,8 @@
 import { GitHubIcon, UserButton } from "@daveyplate/better-auth-ui"
 import Link from "next/link"
 
-import { ModeToggle } from "@/components/mode-toggle"
-import { Button } from "@/components/ui/button"
+import { ModeToggle } from "./mode-toggle"
+import { Button } from "./ui/button"
 
 export function Header() {
     return (
