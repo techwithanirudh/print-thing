@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@daveyplate/better-auth-tanstack':
-        specifier: ^1.2.30
-        version: 1.2.30(@tanstack/query-core@5.67.3)(@tanstack/react-query@5.67.3(react@19.0.0))(better-auth@1.2.3(typescript@5.8.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^1.2.31
+        version: 1.2.31(@tanstack/query-core@5.68.0)(@tanstack/react-query@5.68.0(react@19.0.0))(better-auth@1.2.4(typescript@5.8.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@daveyplate/better-auth-ui':
-        specifier: ^1.2.32
-        version: 1.2.32(0e6bf0d89588cd2abfe77de3b9eecc78)
+        specifier: ^1.2.33
+        version: 1.2.33(241c8faff84fea48d1f7437768799d74)
       '@radix-ui/react-dropdown-menu':
         specifier: ^2.1.6
         version: 2.1.6(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -21,11 +21,11 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@types/react@19.0.10)(react@19.0.0)
       '@tanstack/react-query':
-        specifier: ^5.67.3
-        version: 5.67.3(react@19.0.0)
+        specifier: ^5.68.0
+        version: 5.68.0(react@19.0.0)
       better-auth:
-        specifier: ^1.2.3
-        version: 1.2.3(typescript@5.8.2)
+        specifier: ^1.2.4
+        version: 1.2.4(typescript@5.8.2)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -34,10 +34,10 @@ importers:
         version: 2.1.1
       drizzle-orm:
         specifier: ^0.40.0
-        version: 0.40.0(@neondatabase/serverless@0.10.4)(@prisma/client@5.22.0(prisma@5.22.0))(@types/better-sqlite3@7.6.12)(@types/pg@8.11.11)(better-sqlite3@11.8.1)(gel@2.0.1)(kysely@0.27.6)(pg@8.14.0)(prisma@5.22.0)
+        version: 0.40.0(@neondatabase/serverless@0.10.4)(@prisma/client@5.22.0(prisma@5.22.0))(@types/better-sqlite3@7.6.12)(@types/pg@8.11.11)(better-sqlite3@11.9.0)(gel@2.0.1)(kysely@0.27.6)(pg@8.14.0)(prisma@5.22.0)
       lucide-react:
-        specifier: ^0.479.0
-        version: 0.479.0(react@19.0.0)
+        specifier: ^0.481.0
+        version: 0.481.0(react@19.0.0)
       next:
         specifier: 15.2.2
         version: 15.2.2(@babel/core@7.26.9)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -61,17 +61,17 @@ importers:
         version: 3.0.2
       tailwindcss-animate:
         specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@4.0.13)
+        version: 1.0.7(tailwindcss@4.0.14)
     devDependencies:
       '@better-auth/cli':
-        specifier: ^1.2.3
-        version: 1.2.3(@babel/core@7.26.9)(@neondatabase/serverless@0.10.4)(@types/pg@8.11.11)(@types/react@19.0.10)(kysely@0.27.6)(pg@8.14.0)(react@19.0.0)(typescript@5.8.2)
+        specifier: ^1.2.4
+        version: 1.2.4(@babel/core@7.26.9)(@neondatabase/serverless@0.10.4)(@types/pg@8.11.11)(@types/react@19.0.10)(kysely@0.27.6)(pg@8.14.0)(react@19.0.0)(typescript@5.8.2)
       '@biomejs/biome':
         specifier: 1.9.4
         version: 1.9.4
       '@tailwindcss/postcss':
-        specifier: ^4.0.13
-        version: 4.0.13
+        specifier: ^4.0.14
+        version: 4.0.14
       '@types/node':
         specifier: ^22.13.10
         version: 22.13.10
@@ -94,11 +94,11 @@ importers:
         specifier: ^0.25.1
         version: 0.25.1
       tailwindcss:
-        specifier: ^4.0.13
-        version: 4.0.13
+        specifier: ^4.0.14
+        version: 4.0.14
       tailwindcss-safe-area:
         specifier: ^0.6.0
-        version: 0.6.0(tailwindcss@4.0.13)
+        version: 0.6.0(tailwindcss@4.0.14)
       turbo:
         specifier: ^2.4.4
         version: 2.4.4
@@ -271,8 +271,8 @@ packages:
     resolution: {integrity: sha512-emqcG3vHrpxUKTrxcblR36dcrcoRDvKmnL/dCL6ZsHaShW80qxCAcNhzQZrpeM765VzEos+xOi4s+r4IXzTwdQ==}
     engines: {node: '>=6.9.0'}
 
-  '@better-auth/cli@1.2.3':
-    resolution: {integrity: sha512-P9enXf+LmKx15Voz7pJPjVOvpxj5G4gp+3Y8PoXTf8Kfi+ifJ+renEF3MVb+5zm78D7kUUEly/FLqhHjDCmWmw==}
+  '@better-auth/cli@1.2.4':
+    resolution: {integrity: sha512-II43bUUhhjA7wh8ciGxTToBqLaGkS4WmwfvtV6bBHzzSzn9hNnfMt6bicC11R7urOyHTRWgfRr9yM4TtB0CWPw==}
     hasBin: true
 
   '@better-auth/utils@0.2.3':
@@ -352,8 +352,8 @@ packages:
   '@clack/prompts@0.10.0':
     resolution: {integrity: sha512-H3rCl6CwW1NdQt9rE3n373t7o5cthPv7yUoxF2ytZvyvlJv89C5RYMJu83Hed8ODgys5vpBU0GKxIRG83jd8NQ==}
 
-  '@daveyplate/better-auth-tanstack@1.2.30':
-    resolution: {integrity: sha512-KT5sFM8oWxXrX50adcbO7Awv0kCR1Y8Atx+XuLKAJ9zuAI5IS/1ihv576M376903bvK29gP7eB/66CJMe7bJrA==}
+  '@daveyplate/better-auth-tanstack@1.2.31':
+    resolution: {integrity: sha512-pVU1qjeYJKSMmzeJMpbd2rafOhCoVwz3lBLehgfqe7F9pKAEolWQH6SvUKYMJN4tPIaMbF30H7aZkRAa9S1YhA==}
     peerDependencies:
       '@tanstack/query-core': '>=5.65.0'
       '@tanstack/react-query': '>=5.65.0'
@@ -361,8 +361,8 @@ packages:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
 
-  '@daveyplate/better-auth-ui@1.2.32':
-    resolution: {integrity: sha512-Zm+w6Hp2e39eE5y0JpgiEP3eUjAAwp42vJn4X50ndStlAmTIuKgubhkrua9H9BUyMXCbmbCvisSDyhfquXpq3Q==}
+  '@daveyplate/better-auth-ui@1.2.33':
+    resolution: {integrity: sha512-xbzRZlFiRBK8K2ZeLx1wqt5Cse4BjJNrG7pyWAT5uLzU5PuAVXgEj1B96iciIhT0vLk2pWu14NXpw9Ig7TDg3w==}
     peerDependencies:
       '@daveyplate/better-auth-tanstack': ^1.2.30
       '@radix-ui/react-avatar': '>=1.1.0'
@@ -1542,87 +1542,87 @@ packages:
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
-  '@tailwindcss/node@4.0.13':
-    resolution: {integrity: sha512-P9TmtE9Vew0vv5FwyD4bsg/dHHsIsAuUXkenuGUc5gm8fYgaxpdoxIKngCyEMEQxyCKR8PQY5V5VrrKNOx7exg==}
+  '@tailwindcss/node@4.0.14':
+    resolution: {integrity: sha512-Ux9NbFkKWYE4rfUFz6M5JFLs/GEYP6ysxT8uSyPn6aTbh2K3xDE1zz++eVK4Vwx799fzMF8CID9sdHn4j/Ab8w==}
 
-  '@tailwindcss/oxide-android-arm64@4.0.13':
-    resolution: {integrity: sha512-+9zmwaPQ8A9ycDcdb+hRkMn6NzsmZ4YJBsW5Xqq5EdOu9xlIgmuMuJauVzDPB5BSbIWfhPdZ+le8NeRZpl1coA==}
+  '@tailwindcss/oxide-android-arm64@4.0.14':
+    resolution: {integrity: sha512-VBFKC2rFyfJ5J8lRwjy6ub3rgpY186kAcYgiUr8ArR8BAZzMruyeKJ6mlsD22Zp5ZLcPW/FXMasJiJBx0WsdQg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [android]
 
-  '@tailwindcss/oxide-darwin-arm64@4.0.13':
-    resolution: {integrity: sha512-Bj1QGlEJSjs/205CIRfb5/jeveOqzJ4pFMdRxu0gyiYWxBRyxsExXqaD+7162wnLP/EDKh6S1MC9E/1GwEhLtA==}
+  '@tailwindcss/oxide-darwin-arm64@4.0.14':
+    resolution: {integrity: sha512-U3XOwLrefGr2YQZ9DXasDSNWGPZBCh8F62+AExBEDMLDfvLLgI/HDzY8Oq8p/JtqkAY38sWPOaNnRwEGKU5Zmg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@tailwindcss/oxide-darwin-x64@4.0.13':
-    resolution: {integrity: sha512-lRTkxjTpMGXhLLM5GjZ0MtjPczMuhAo9j7PeSsaU6Imkm7W7RbrXfT8aP934kS7cBBV+HKN5U19Z0WWaORfb8Q==}
+  '@tailwindcss/oxide-darwin-x64@4.0.14':
+    resolution: {integrity: sha512-V5AjFuc3ndWGnOi1d379UsODb0TzAS2DYIP/lwEbfvafUaD2aNZIcbwJtYu2DQqO2+s/XBvDVA+w4yUyaewRwg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@tailwindcss/oxide-freebsd-x64@4.0.13':
-    resolution: {integrity: sha512-p/YLyKhs+xFibVeAPlpMGDVMKgjChgzs12VnDFaaqRSJoOz+uJgRSKiir2tn50e7Nm4YYw35q/DRBwpDBNo1MQ==}
+  '@tailwindcss/oxide-freebsd-x64@4.0.14':
+    resolution: {integrity: sha512-tXvtxbaZfcPfqBwW3f53lTcyH6EDT+1eT7yabwcfcxTs+8yTPqxsDUhrqe9MrnEzpNkd+R/QAjJapfd4tjWdLg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [freebsd]
 
-  '@tailwindcss/oxide-linux-arm-gnueabihf@4.0.13':
-    resolution: {integrity: sha512-Ua/5ydE/QOTX8jHuc7M9ICWnaLi6K2MV/r+Ws2OppsOjy8tdlPbqYainJJ6Kl7ofm524K+4Fk9CQITPzeIESPw==}
+  '@tailwindcss/oxide-linux-arm-gnueabihf@4.0.14':
+    resolution: {integrity: sha512-cSeLNWWqIWeSTmBntQvyY2/2gcLX8rkPFfDDTQVF8qbRcRMVPLxBvFVJyfSAYRNch6ZyVH2GI6dtgALOBDpdNA==}
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [linux]
 
-  '@tailwindcss/oxide-linux-arm64-gnu@4.0.13':
-    resolution: {integrity: sha512-/W1+Q6tBAVgZWh/bhfOHo4n7Ryh6E7zYj4bJd9SRbkPyLtRioyK3bi6RLuDj57sa7Amk/DeomSV9iycS0xqIPA==}
+  '@tailwindcss/oxide-linux-arm64-gnu@4.0.14':
+    resolution: {integrity: sha512-bwDWLBalXFMDItcSXzFk6y7QKvj6oFlaY9vM+agTlwFL1n1OhDHYLZkSjaYsh6KCeG0VB0r7H8PUJVOM1LRZyg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@tailwindcss/oxide-linux-arm64-musl@4.0.13':
-    resolution: {integrity: sha512-GQj6TWevNxwsYw20FdT2r2d1f7uiRsF07iFvNYxPIvIyPEV74eZ0zgFEsAH1daK1OxPy+LXdZ4grV17P5tVzhQ==}
+  '@tailwindcss/oxide-linux-arm64-musl@4.0.14':
+    resolution: {integrity: sha512-gVkJdnR/L6iIcGYXx64HGJRmlme2FGr/aZH0W6u4A3RgPMAb+6ELRLi+UBiH83RXBm9vwCfkIC/q8T51h8vUJQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@tailwindcss/oxide-linux-x64-gnu@4.0.13':
-    resolution: {integrity: sha512-sQRH09faifF9w9WS6TKDWr1oLi4hoPx0EIWXZHQK/jcjarDpXGQ2DbF0KnALJCwWBxOIP/1nrmU01fZwwMzY3g==}
+  '@tailwindcss/oxide-linux-x64-gnu@4.0.14':
+    resolution: {integrity: sha512-EE+EQ+c6tTpzsg+LGO1uuusjXxYx0Q00JE5ubcIGfsogSKth8n8i2BcS2wYTQe4jXGs+BQs35l78BIPzgwLddw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@tailwindcss/oxide-linux-x64-musl@4.0.13':
-    resolution: {integrity: sha512-Or1N8DIF3tP+LsloJp+UXLTIMMHMUcWXFhJLCsM4T7MzFzxkeReewRWXfk5mk137cdqVeUEH/R50xAhY1mOkTQ==}
+  '@tailwindcss/oxide-linux-x64-musl@4.0.14':
+    resolution: {integrity: sha512-KCCOzo+L6XPT0oUp2Jwh233ETRQ/F6cwUnMnR0FvMUCbkDAzHbcyOgpfuAtRa5HD0WbTbH4pVD+S0pn1EhNfbw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@tailwindcss/oxide-win32-arm64-msvc@4.0.13':
-    resolution: {integrity: sha512-u2mQyqCFrr9vVTP6sfDRfGE6bhOX3/7rInehzxNhHX1HYRIx09H3sDdXzTxnZWKOjIg3qjFTCrYFUZckva5PIg==}
+  '@tailwindcss/oxide-win32-arm64-msvc@4.0.14':
+    resolution: {integrity: sha512-AHObFiFL9lNYcm3tZSPqa/cHGpM5wOrNmM2uOMoKppp+0Hom5uuyRh0QkOp7jftsHZdrZUpmoz0Mp6vhh2XtUg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@tailwindcss/oxide-win32-x64-msvc@4.0.13':
-    resolution: {integrity: sha512-sOEc4iCanp1Yqyeu9suQcEzfaUcHnqjBUgDg0ZXpjUMUwdSi37S1lu1RGoV1BYInvvGu3y3HHTmvsSfDhx2L8w==}
+  '@tailwindcss/oxide-win32-x64-msvc@4.0.14':
+    resolution: {integrity: sha512-rNXXMDJfCJLw/ZaFTOLOHoGULxyXfh2iXTGiChFiYTSgKBKQHIGEpV0yn5N25WGzJJ+VBnRjHzlmDqRV+d//oQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
 
-  '@tailwindcss/oxide@4.0.13':
-    resolution: {integrity: sha512-pTH3Ex5zAWC9LbS+WsYAFmkXQW3NRjmvxkKJY3NP1x0KHBWjz0Q2uGtdGMJzsa0EwoZ7wq9RTbMH1UNPceCpWw==}
+  '@tailwindcss/oxide@4.0.14':
+    resolution: {integrity: sha512-M8VCNyO/NBi5vJ2cRcI9u8w7Si+i76a7o1vveoGtbbjpEYJZYiyc7f2VGps/DqawO56l3tImIbq2OT/533jcrA==}
     engines: {node: '>= 10'}
 
-  '@tailwindcss/postcss@4.0.13':
-    resolution: {integrity: sha512-zTmnPGDYb2HKClTBTBwB+lLQH+Rq4etnQXFXs2lisRyXryUnoJIBByFTljkaK9F1d7o14h6t4NJIlfbZuOHR+A==}
+  '@tailwindcss/postcss@4.0.14':
+    resolution: {integrity: sha512-+uIR6KtKhla1XeIanF27KtrfYy+PX+R679v5LxbkmEZlhQe3g8rk+wKj7Xgt++rWGRuFLGMXY80Ek8JNn+kN/g==}
 
-  '@tanstack/query-core@5.67.3':
-    resolution: {integrity: sha512-pq76ObpjcaspAW4OmCbpXLF6BCZP2Zr/J5ztnyizXhSlNe7fIUp0QKZsd0JMkw9aDa+vxDX/OY7N+hjNY/dCGg==}
+  '@tanstack/query-core@5.68.0':
+    resolution: {integrity: sha512-r8rFYYo8/sY/LNaOqX84h12w7EQev4abFXDWy4UoDVUJzJ5d9Fbmb8ayTi7ScG+V0ap44SF3vNs/45mkzDGyGw==}
 
-  '@tanstack/react-query@5.67.3':
-    resolution: {integrity: sha512-u/n2HsQeH1vpZIOzB/w2lqKlXUDUKo6BxTdGXSMvNzIq5MHYFckRMVuFABp+QB7RN8LFXWV6X1/oSkuDq+MPIA==}
+  '@tanstack/react-query@5.68.0':
+    resolution: {integrity: sha512-mMOdGDKlwTP/WV72QqSNf4PAMeoBp/DqBHQ222wBfb51Looi8QUqnCnb9O98ZgvNISmy6fzxRGBJdZ+9IBvX2Q==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -1671,14 +1671,14 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  better-auth@1.2.3:
-    resolution: {integrity: sha512-y97/ah2SOWaW81IRg36m7xMSMVl7ATaHie/nhQ0in/reVlEX/6juVPszNqq0gcTwQtFsB8oe15wQKgdf4yHP9Q==}
+  better-auth@1.2.4:
+    resolution: {integrity: sha512-/ZK2jbUjm8JwdeCLFrUWUBmexPyI9PkaLVXWLWtN60sMDHTY8B5G72wcHglo1QMFBaw4G0qFkP5ayl9k6XfDaA==}
 
   better-call@1.0.4:
     resolution: {integrity: sha512-NdAihYdkS0IOz1mtz8mw1gWacCxR9r921U8YqB+VB6++rt8edMG13vVL16Y4TBL4XkjMK/DUewEsOOFkw9LJYQ==}
 
-  better-sqlite3@11.8.1:
-    resolution: {integrity: sha512-9BxNaBkblMjhJW8sMRZxnxVTRgbRmssZW0Oxc1MPBTfiR+WW21e2Mk4qu8CzrcZb1LwPCnFsfDEzq+SNcBU8eg==}
+  better-sqlite3@11.9.0:
+    resolution: {integrity: sha512-4b9xYnoaskj8eIkke9ZCB42p5bOPabptSku8Rl4Yww70Jf+aHeLvrIjXDJrKQxUEjdppsFb+fdJSjoH4TklROA==}
 
   bindings@1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
@@ -1713,8 +1713,8 @@ packages:
     resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
     engines: {node: '>= 0.4'}
 
-  caniuse-lite@1.0.30001703:
-    resolution: {integrity: sha512-kRlAGTRWgPsOj7oARC9m1okJEXdL/8fekFVcxA8Hl7GH4r/sN4OJn/i6Flde373T50KS7Y37oFbMwlE8+F42kQ==}
+  caniuse-lite@1.0.30001704:
+    resolution: {integrity: sha512-+L2IgBbV6gXB4ETf0keSvLr7JUrRVbIaB/lrQ1+z8mRcQiisG5k+lG6O4n6Y5q6f5EuNfaYXKgymucphlEXQew==}
 
   chalk@5.4.1:
     resolution: {integrity: sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==}
@@ -2026,8 +2026,8 @@ packages:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
     engines: {node: '>= 0.4'}
 
-  electron-to-chromium@1.5.114:
-    resolution: {integrity: sha512-DFptFef3iktoKlFQK/afbo274/XNWD00Am0xa7M8FZUepHlHT8PEuiNBoRfFHbH1okqN58AlhbJ4QTkcnXorjA==}
+  electron-to-chromium@1.5.118:
+    resolution: {integrity: sha512-yNDUus0iultYyVoEFLnQeei7LOQkL8wg8GQpkPCRrOlJXlcCwa6eGKZkxQ9ciHsqZyYbj8Jd94X1CTPzGm+uIA==}
 
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
@@ -2305,8 +2305,8 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lucide-react@0.479.0:
-    resolution: {integrity: sha512-aBhNnveRhorBOK7uA4gDjgaf+YlHMdMhQ/3cupk6exM10hWlEU+2QtWYOfhXhjAsmdb6LeKR+NZnow4UxRRiTQ==}
+  lucide-react@0.481.0:
+    resolution: {integrity: sha512-NrvUDNFwgLIvHiwTEq9boa5Kiz1KdUT8RJ+wmNijwxdn9U737Fw42c43sRxJTMqhL+ySHpGRVCWpwiF+abrEjw==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -2745,8 +2745,8 @@ packages:
     peerDependencies:
       tailwindcss: ^2.0.0 || >=3.0.0
 
-  tailwindcss@4.0.13:
-    resolution: {integrity: sha512-gbvFrB0fOsTv/OugXWi2PtflJ4S6/ctu6Mmn3bCftmLY/6xRsQVEJPgIIpABwpZ52DpONkCA3bEj5b54MHxF2Q==}
+  tailwindcss@4.0.14:
+    resolution: {integrity: sha512-92YT2dpt671tFiHH/e1ok9D987N9fHD5VWoly1CdPD/Cd1HMglvZwP3nx2yTj2lbXDAHt8QssZkxTLCCTNL+xw==}
 
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
@@ -3140,7 +3140,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@better-auth/cli@1.2.3(@babel/core@7.26.9)(@neondatabase/serverless@0.10.4)(@types/pg@8.11.11)(@types/react@19.0.10)(kysely@0.27.6)(pg@8.14.0)(react@19.0.0)(typescript@5.8.2)':
+  '@better-auth/cli@1.2.4(@babel/core@7.26.9)(@neondatabase/serverless@0.10.4)(@types/pg@8.11.11)(@types/react@19.0.10)(kysely@0.27.6)(pg@8.14.0)(react@19.0.0)(typescript@5.8.2)':
     dependencies:
       '@babel/preset-react': 7.26.3(@babel/core@7.26.9)
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.9)
@@ -3149,13 +3149,13 @@ snapshots:
       '@prisma/client': 5.22.0(prisma@5.22.0)
       '@types/better-sqlite3': 7.6.12
       '@types/prompts': 2.4.9
-      better-auth: 1.2.3(typescript@5.8.2)
-      better-sqlite3: 11.8.1
+      better-auth: 1.2.4(typescript@5.8.2)
+      better-sqlite3: 11.9.0
       c12: 2.0.4
       chalk: 5.4.1
       commander: 12.1.0
       dotenv: 16.4.7
-      drizzle-orm: 0.33.0(@neondatabase/serverless@0.10.4)(@prisma/client@5.22.0(prisma@5.22.0))(@types/better-sqlite3@7.6.12)(@types/pg@8.11.11)(@types/react@19.0.10)(better-sqlite3@11.8.1)(kysely@0.27.6)(pg@8.14.0)(prisma@5.22.0)(react@19.0.0)
+      drizzle-orm: 0.33.0(@neondatabase/serverless@0.10.4)(@prisma/client@5.22.0(prisma@5.22.0))(@types/better-sqlite3@7.6.12)(@types/pg@8.11.11)(@types/react@19.0.10)(better-sqlite3@11.9.0)(kysely@0.27.6)(pg@8.14.0)(prisma@5.22.0)(react@19.0.0)
       fs-extra: 11.3.0
       get-tsconfig: 4.10.0
       prettier: 3.5.3
@@ -3262,17 +3262,17 @@ snapshots:
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
-  '@daveyplate/better-auth-tanstack@1.2.30(@tanstack/query-core@5.67.3)(@tanstack/react-query@5.67.3(react@19.0.0))(better-auth@1.2.3(typescript@5.8.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@daveyplate/better-auth-tanstack@1.2.31(@tanstack/query-core@5.68.0)(@tanstack/react-query@5.68.0(react@19.0.0))(better-auth@1.2.4(typescript@5.8.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@tanstack/query-core': 5.67.3
-      '@tanstack/react-query': 5.67.3(react@19.0.0)
-      better-auth: 1.2.3(typescript@5.8.2)
+      '@tanstack/query-core': 5.68.0
+      '@tanstack/react-query': 5.68.0(react@19.0.0)
+      better-auth: 1.2.4(typescript@5.8.2)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  '@daveyplate/better-auth-ui@1.2.32(0e6bf0d89588cd2abfe77de3b9eecc78)':
+  '@daveyplate/better-auth-ui@1.2.33(241c8faff84fea48d1f7437768799d74)':
     dependencies:
-      '@daveyplate/better-auth-tanstack': 1.2.30(@tanstack/query-core@5.67.3)(@tanstack/react-query@5.67.3(react@19.0.0))(better-auth@1.2.3(typescript@5.8.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@daveyplate/better-auth-tanstack': 1.2.31(@tanstack/query-core@5.68.0)(@tanstack/react-query@5.68.0(react@19.0.0))(better-auth@1.2.4(typescript@5.8.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-avatar': 1.1.3(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-checkbox': 1.1.4(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-dialog': 1.1.6(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -3281,16 +3281,16 @@ snapshots:
       '@radix-ui/react-slot': 1.1.2(@types/react@19.0.10)(react@19.0.0)
       '@radix-ui/react-tabs': 1.1.3(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@react-email/components': 0.0.33(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@tanstack/react-query': 5.67.3(react@19.0.0)
-      better-auth: 1.2.3(typescript@5.8.2)
+      '@tanstack/react-query': 5.68.0(react@19.0.0)
+      better-auth: 1.2.4(typescript@5.8.2)
       class-variance-authority: 0.7.1
       clsx: 2.1.1
-      lucide-react: 0.479.0(react@19.0.0)
+      lucide-react: 0.481.0(react@19.0.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       sonner: 2.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       tailwind-merge: 3.0.2
-      tailwindcss: 4.0.13
+      tailwindcss: 4.0.14
       ua-parser-js: 2.0.2
 
   '@drizzle-team/brocli@0.10.2': {}
@@ -4181,73 +4181,73 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@tailwindcss/node@4.0.13':
+  '@tailwindcss/node@4.0.14':
     dependencies:
       enhanced-resolve: 5.18.1
       jiti: 2.4.2
-      tailwindcss: 4.0.13
+      tailwindcss: 4.0.14
 
-  '@tailwindcss/oxide-android-arm64@4.0.13':
+  '@tailwindcss/oxide-android-arm64@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-darwin-arm64@4.0.13':
+  '@tailwindcss/oxide-darwin-arm64@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-darwin-x64@4.0.13':
+  '@tailwindcss/oxide-darwin-x64@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-freebsd-x64@4.0.13':
+  '@tailwindcss/oxide-freebsd-x64@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-linux-arm-gnueabihf@4.0.13':
+  '@tailwindcss/oxide-linux-arm-gnueabihf@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-linux-arm64-gnu@4.0.13':
+  '@tailwindcss/oxide-linux-arm64-gnu@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-linux-arm64-musl@4.0.13':
+  '@tailwindcss/oxide-linux-arm64-musl@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-linux-x64-gnu@4.0.13':
+  '@tailwindcss/oxide-linux-x64-gnu@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-linux-x64-musl@4.0.13':
+  '@tailwindcss/oxide-linux-x64-musl@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-win32-arm64-msvc@4.0.13':
+  '@tailwindcss/oxide-win32-arm64-msvc@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-win32-x64-msvc@4.0.13':
+  '@tailwindcss/oxide-win32-x64-msvc@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide@4.0.13':
+  '@tailwindcss/oxide@4.0.14':
     optionalDependencies:
-      '@tailwindcss/oxide-android-arm64': 4.0.13
-      '@tailwindcss/oxide-darwin-arm64': 4.0.13
-      '@tailwindcss/oxide-darwin-x64': 4.0.13
-      '@tailwindcss/oxide-freebsd-x64': 4.0.13
-      '@tailwindcss/oxide-linux-arm-gnueabihf': 4.0.13
-      '@tailwindcss/oxide-linux-arm64-gnu': 4.0.13
-      '@tailwindcss/oxide-linux-arm64-musl': 4.0.13
-      '@tailwindcss/oxide-linux-x64-gnu': 4.0.13
-      '@tailwindcss/oxide-linux-x64-musl': 4.0.13
-      '@tailwindcss/oxide-win32-arm64-msvc': 4.0.13
-      '@tailwindcss/oxide-win32-x64-msvc': 4.0.13
+      '@tailwindcss/oxide-android-arm64': 4.0.14
+      '@tailwindcss/oxide-darwin-arm64': 4.0.14
+      '@tailwindcss/oxide-darwin-x64': 4.0.14
+      '@tailwindcss/oxide-freebsd-x64': 4.0.14
+      '@tailwindcss/oxide-linux-arm-gnueabihf': 4.0.14
+      '@tailwindcss/oxide-linux-arm64-gnu': 4.0.14
+      '@tailwindcss/oxide-linux-arm64-musl': 4.0.14
+      '@tailwindcss/oxide-linux-x64-gnu': 4.0.14
+      '@tailwindcss/oxide-linux-x64-musl': 4.0.14
+      '@tailwindcss/oxide-win32-arm64-msvc': 4.0.14
+      '@tailwindcss/oxide-win32-x64-msvc': 4.0.14
 
-  '@tailwindcss/postcss@4.0.13':
+  '@tailwindcss/postcss@4.0.14':
     dependencies:
       '@alloc/quick-lru': 5.2.0
-      '@tailwindcss/node': 4.0.13
-      '@tailwindcss/oxide': 4.0.13
+      '@tailwindcss/node': 4.0.14
+      '@tailwindcss/oxide': 4.0.14
       lightningcss: 1.29.2
       postcss: 8.5.3
-      tailwindcss: 4.0.13
+      tailwindcss: 4.0.14
 
-  '@tanstack/query-core@5.67.3': {}
+  '@tanstack/query-core@5.68.0': {}
 
-  '@tanstack/react-query@5.67.3(react@19.0.0)':
+  '@tanstack/react-query@5.68.0(react@19.0.0)':
     dependencies:
-      '@tanstack/query-core': 5.67.3
+      '@tanstack/query-core': 5.68.0
       react: 19.0.0
 
   '@types/better-sqlite3@7.6.12':
@@ -4305,7 +4305,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  better-auth@1.2.3(typescript@5.8.2):
+  better-auth@1.2.4(typescript@5.8.2):
     dependencies:
       '@better-auth/utils': 0.2.3
       '@better-fetch/fetch': 1.1.15
@@ -4330,7 +4330,7 @@ snapshots:
       set-cookie-parser: 2.7.1
       uncrypto: 0.1.3
 
-  better-sqlite3@11.8.1:
+  better-sqlite3@11.9.0:
     dependencies:
       bindings: 1.5.0
       prebuild-install: 7.1.3
@@ -4347,8 +4347,8 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001703
-      electron-to-chromium: 1.5.114
+      caniuse-lite: 1.0.30001704
+      electron-to-chromium: 1.5.118
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
 
@@ -4383,7 +4383,7 @@ snapshots:
       es-errors: 1.3.0
       function-bind: 1.1.2
 
-  caniuse-lite@1.0.30001703: {}
+  caniuse-lite@1.0.30001704: {}
 
   chalk@5.4.1: {}
 
@@ -4504,26 +4504,26 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.33.0(@neondatabase/serverless@0.10.4)(@prisma/client@5.22.0(prisma@5.22.0))(@types/better-sqlite3@7.6.12)(@types/pg@8.11.11)(@types/react@19.0.10)(better-sqlite3@11.8.1)(kysely@0.27.6)(pg@8.14.0)(prisma@5.22.0)(react@19.0.0):
+  drizzle-orm@0.33.0(@neondatabase/serverless@0.10.4)(@prisma/client@5.22.0(prisma@5.22.0))(@types/better-sqlite3@7.6.12)(@types/pg@8.11.11)(@types/react@19.0.10)(better-sqlite3@11.9.0)(kysely@0.27.6)(pg@8.14.0)(prisma@5.22.0)(react@19.0.0):
     optionalDependencies:
       '@neondatabase/serverless': 0.10.4
       '@prisma/client': 5.22.0(prisma@5.22.0)
       '@types/better-sqlite3': 7.6.12
       '@types/pg': 8.11.11
       '@types/react': 19.0.10
-      better-sqlite3: 11.8.1
+      better-sqlite3: 11.9.0
       kysely: 0.27.6
       pg: 8.14.0
       prisma: 5.22.0
       react: 19.0.0
 
-  drizzle-orm@0.40.0(@neondatabase/serverless@0.10.4)(@prisma/client@5.22.0(prisma@5.22.0))(@types/better-sqlite3@7.6.12)(@types/pg@8.11.11)(better-sqlite3@11.8.1)(gel@2.0.1)(kysely@0.27.6)(pg@8.14.0)(prisma@5.22.0):
+  drizzle-orm@0.40.0(@neondatabase/serverless@0.10.4)(@prisma/client@5.22.0(prisma@5.22.0))(@types/better-sqlite3@7.6.12)(@types/pg@8.11.11)(better-sqlite3@11.9.0)(gel@2.0.1)(kysely@0.27.6)(pg@8.14.0)(prisma@5.22.0):
     optionalDependencies:
       '@neondatabase/serverless': 0.10.4
       '@prisma/client': 5.22.0(prisma@5.22.0)
       '@types/better-sqlite3': 7.6.12
       '@types/pg': 8.11.11
-      better-sqlite3: 11.8.1
+      better-sqlite3: 11.9.0
       gel: 2.0.1
       kysely: 0.27.6
       pg: 8.14.0
@@ -4535,7 +4535,7 @@ snapshots:
       es-errors: 1.3.0
       gopd: 1.2.0
 
-  electron-to-chromium@1.5.114: {}
+  electron-to-chromium@1.5.118: {}
 
   end-of-stream@1.4.4:
     dependencies:
@@ -4851,7 +4851,7 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-react@0.479.0(react@19.0.0):
+  lucide-react@0.481.0(react@19.0.0):
     dependencies:
       react: 19.0.0
 
@@ -4916,7 +4916,7 @@ snapshots:
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.15
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001703
+      caniuse-lite: 1.0.30001704
       postcss: 8.4.31
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
@@ -5262,15 +5262,15 @@ snapshots:
 
   tailwind-merge@3.0.2: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@4.0.13):
+  tailwindcss-animate@1.0.7(tailwindcss@4.0.14):
     dependencies:
-      tailwindcss: 4.0.13
+      tailwindcss: 4.0.14
 
-  tailwindcss-safe-area@0.6.0(tailwindcss@4.0.13):
+  tailwindcss-safe-area@0.6.0(tailwindcss@4.0.14):
     dependencies:
-      tailwindcss: 4.0.13
+      tailwindcss: 4.0.14
 
-  tailwindcss@4.0.13: {}
+  tailwindcss@4.0.14: {}
 
   tapable@2.2.1: {}
 
