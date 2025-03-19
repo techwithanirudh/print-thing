@@ -1,8 +1,9 @@
 # Better Auth Next.js Starter (App Router)
 
-[Demo](https://better-auth-nextjs-starter.vercel.app)
+[Demo](https://nextjs.better-auth-starter.com)
 
 - [Pages Router](https://github.com/daveyplate/better-auth-nextjs-pages-starter)
+- [TanStack Start](https://github.com/daveyplate/better-auth-tanstack-starter)
 
 ## Installation
 

@@ -7,7 +7,7 @@ import { ThemeProvider } from "next-themes"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import type { ReactNode } from "react"
-import { toast } from "sonner"
+import { Toaster, toast } from "sonner"
 
 import { authClient } from "@/lib/auth-client"
 
@@ -74,6 +74,8 @@ export function Providers({ children }: { children: ReactNode }) {
                         LinkComponent={Link}
                     >
                         {children}
+
+                        <Toaster />
                     </AuthUIProviderTanstack>
                 </ThemeProvider>
             </AuthQueryProvider>
