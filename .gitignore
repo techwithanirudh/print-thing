@@ -45,4 +45,3 @@ yarn-error.log*
 # workspace
 .turbo
 .vscode
-pnpm-lock.yaml
