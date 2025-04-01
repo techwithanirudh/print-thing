@@ -70,8 +70,10 @@ export function Providers({ children }: { children: ReactNode }) {
                         authClient={authClient}
                         navigate={router.push}
                         replace={router.replace}
-                        onSessionChange={router.refresh}
-                        LinkComponent={Link}
+                        onSessionChange={() => {
+                            router.refresh()
+                        }}
+                        Link={Link}
                     >
                         {children}
 
