@@ -2,7 +2,7 @@ import { getSessionCookie } from "better-auth/cookies"
 import { type NextRequest, NextResponse } from "next/server"
 
 export async function middleware(request: NextRequest) {
-    // Optimistic redirects for protected routes
+    // Check cookie for optimistic redirects for protected routes
     // Use getSession in your RSC to protect a route via SSR or useAuthenticate client side
     const sessionCookie = getSessionCookie(request)
 
