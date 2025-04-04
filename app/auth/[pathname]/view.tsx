@@ -8,6 +8,8 @@ import { useEffect } from "react"
 import { cn } from "@/lib/utils"
 
 export function AuthView({ pathname }: { pathname: string }) {
+    // Just an example, SettingsCards already includes this
+    // useAuthenticate({ enabled: pathname === "settings" })
     const router = useRouter()
 
     useEffect(() => {
