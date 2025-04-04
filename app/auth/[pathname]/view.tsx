@@ -17,7 +17,7 @@ export function AuthView({ pathname }: { pathname: string }) {
     }, [router])
 
     return (
-        <main className="flex grow flex-col items-center justify-center gap-3 p-4">
+        <main className="flex grow flex-col items-center justify-center gap-4 p-4">
             <AuthCard pathname={pathname} />
 
             <p
