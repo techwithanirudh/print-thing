@@ -11,7 +11,9 @@ export function generateStaticParams() {
 export default async function AuthPage({ params }: { params: Promise<{ pathname: string }> }) {
     const { pathname } = await params
 
-    // SSR route protection for /auth/settings
+    // **EXAMPLE** SSR route protection for /auth/settings
+    // NOTE: this opts /auth/settings out of static rendering
+    // It already handles client side protection via useAuthenticate
     if (pathname === "settings") {
         const sessionData = await auth.api.getSession({ headers: await headers() })
         if (!sessionData) redirect("/auth/sign-in?redirectTo=/auth/settings")
