@@ -26,6 +26,8 @@ npx drizzle-kit migrate
 
 - Twitter: [@daveycodez](https://x.com/daveycodez)
 
+☕️ [Buy me a coffee](https://buymeacoffee.com/daveycodez)
+
 ## Features:
 
 [Better Auth](https://better-auth.com)
