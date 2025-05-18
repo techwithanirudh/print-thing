@@ -2,10 +2,10 @@
 
 import { AuthQueryProvider } from "@daveyplate/better-auth-tanstack"
 import { AuthUIProviderTanstack } from "@daveyplate/better-auth-ui/tanstack"
-import { QueryClient, QueryClientProvider, isServer } from "@tanstack/react-query"
-import { ThemeProvider } from "next-themes"
+import { isServer, QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
+import { ThemeProvider } from "next-themes"
 import type { ReactNode } from "react"
 import { Toaster, toast } from "sonner"
 
@@ -23,7 +23,7 @@ function makeQueryClient() {
     })
 }
 
-let browserQueryClient: QueryClient | undefined = undefined
+let browserQueryClient: QueryClient | undefined
 
 function getQueryClient() {
     if (isServer) {

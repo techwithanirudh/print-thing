@@ -1,7 +1,8 @@
-import { auth } from "@/lib/auth"
 import { authViewPaths } from "@daveyplate/better-auth-ui/server"
 import { headers } from "next/headers"
 import { redirect } from "next/navigation"
+
+import { auth } from "@/lib/auth"
 import { AuthView } from "./view"
 
 export function generateStaticParams() {
