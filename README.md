@@ -34,10 +34,6 @@ npx drizzle-kit migrate
 
 [Better Auth UI](https://better-auth-ui.com)
 
-[Better Auth TanStack](https://github.com/daveyplate/better-auth-tanstack)
-
-[TanStack Query](https://tanstack.com/query)
-
 [shadcn/ui](https://ui.shadcn.com)
 
 [TailwindCSS](https://tailwindcss.com)

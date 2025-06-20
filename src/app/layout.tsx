@@ -19,7 +19,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Better Auth Next.js Starter",
-    description: "Better Auth Next.js Starter with Postgres, Drizzle, shadcn/ui and Tanstack Query"
+    description:
+        "Better Auth Next.js Starter with Postgres, Drizzle, shadcn/ui and Tanstack Query"
 }
 
 export const viewport: Viewport = {
@@ -39,13 +40,13 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+            <body
+                className={`${geistSans.variable} ${geistMono.variable} flex min-h-svh flex-col antialiased`}
+            >
                 <Providers>
-                    <div className="flex min-h-svh flex-col">
-                        <Header />
+                    <Header />
 
-                        {children}
-                    </div>
+                    {children}
                 </Providers>
             </body>
         </html>

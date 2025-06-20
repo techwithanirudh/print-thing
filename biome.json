@@ -1,5 +1,5 @@
 {
-    "$schema": "https://biomejs.dev/schemas/2.0.0-beta.4/schema.json",
+    "$schema": "https://biomejs.dev/schemas/2.0.0/schema.json",
     "vcs": {
         "enabled": true,
         "clientKind": "git",
@@ -10,14 +10,19 @@
     },
     "formatter": {
         "indentStyle": "space",
-        "indentWidth": 4,
-        "lineWidth": 100
+        "indentWidth": 4
     },
     "linter": {
         "rules": {
             "a11y": {
                 "noSvgWithoutTitle": "off",
                 "useGenericFontNames": "off"
+            },
+            "correctness": {
+                "noUnusedImports": {
+                    "fix": "safe",
+                    "level": "info"
+                }
             },
             "suspicious": {
                 "noArrayIndexKey": "off",
