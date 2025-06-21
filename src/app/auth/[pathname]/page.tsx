@@ -39,21 +39,6 @@ export default async function AuthPage({
         }}
         pathname={pathname}
       />
-
-      {["sign-in", "sign-up", "magic-link", "forgot-password"].includes(
-        pathname
-      ) && (
-        <p className="text-muted-foreground text-xs">
-          Powered by{" "}
-          <Link
-            className="text-warning underline"
-            href="https://better-auth.com"
-            target="_blank"
-          >
-            better-auth.
-          </Link>
-        </p>
-      )}
     </main>
   )
 }

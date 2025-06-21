@@ -24,6 +24,7 @@
     "db:up": "drizzle-kit up"
   },
   "dependencies": {
+    "@bprogress/next": "^3.2.12",
     "@daveyplate/better-auth-ui": "^2.0.8",
     "@neondatabase/serverless": "^1.0.1",
     "@radix-ui/react-dropdown-menu": "^2.1.15",
