@@ -9,6 +9,7 @@ import { Toaster } from "sonner"
 import { authClient } from "@/lib/auth-client"
 import { ProgressProvider } from '@bprogress/next/app';
 import { unstable_ViewTransition as ViewTransition } from 'react';
+import { TailwindIndicator } from "@/components/tailwind-indicator"
 
 export function Providers({ children }: { children: ReactNode }) {
   const router = useRouter()
@@ -42,8 +43,9 @@ export function Providers({ children }: { children: ReactNode }) {
         >
           <ViewTransition>
             {children}
-            <Toaster />
           </ViewTransition>
+          <Toaster />
+          <TailwindIndicator />
         </ProgressProvider>
       </AuthUIProvider>
     </ThemeProvider>
