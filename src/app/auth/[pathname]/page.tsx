@@ -3,7 +3,7 @@ import { authViewPaths } from "@daveyplate/better-auth-ui/server"
 import { headers } from "next/headers"
 import Link from "next/link"
 import { redirect } from "next/navigation"
-import { auth } from "@/lib/auth"
+import { auth } from "@/server/auth"
 
 export function generateStaticParams() {
   return Object.values(authViewPaths).map((pathname) => ({ pathname }))
