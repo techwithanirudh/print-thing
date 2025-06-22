@@ -50,6 +50,9 @@ importers:
       next-themes:
         specifier: 0.4.6
         version: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      node-cups:
+        specifier: ^1.2.3
+        version: 1.2.3
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -2812,6 +2815,9 @@ packages:
   node-abi@3.75.0:
     resolution: {integrity: sha512-OhYaY5sDsIka7H7AtijtI9jwGYLyl29eQn/W623DiN/MIv5sUqc4g7BIDThX+gb7di9f6xK02nkp8sdfFWZLTg==}
     engines: {node: '>=10'}
+
+  node-cups@1.2.3:
+    resolution: {integrity: sha512-CGTCmR5vz3IzC0/pCsVAYa4KEBcxsU9PL6+rUWaoqk1TKKRqTXIbqj+VJzilbp61CBdGUMSU2ms9bUvcYAAY9A==}
 
   node-fetch-native@1.6.6:
     resolution: {integrity: sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==}
@@ -5741,6 +5747,8 @@ snapshots:
   node-abi@3.75.0:
     dependencies:
       semver: 7.7.2
+
+  node-cups@1.2.3: {}
 
   node-fetch-native@1.6.6: {}
 
